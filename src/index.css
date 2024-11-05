@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@layer base{
+  body{
+    @apply font-[lato] text-[black-variant]
+
+  }
+  
+}
+
+/* @layer base{
+  body{
+    @apply to-black-variant
+  }
+} */
